@@ -5,6 +5,11 @@ import yandexsearch.pages.MainPage;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Проверка отображения и содержимого поля поиска
+ *
+ * @author Oksana Nezlobina <nez_oksana@mail.ru>
+ */
 public class DisplayingSearchBlockYandexTest extends BaseTestClass{
 
     @Test

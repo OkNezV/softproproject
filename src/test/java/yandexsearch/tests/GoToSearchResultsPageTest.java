@@ -5,6 +5,11 @@ import yandexsearch.pages.MainPage;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Проверка работы поиска
+ *
+ * @author Oksana Nezlobina <nez_oksana@mail.ru>
+ */
 public class GoToSearchResultsPageTest extends BaseTestClass {
 
     @Test
@@ -36,7 +41,6 @@ public class GoToSearchResultsPageTest extends BaseTestClass {
 
         // проверка, что в списке результатов есть искомое слово
         assertTrue("Поле поиска пусто или содержит слово, отличное от вводимого", mainPage.searchTextSameAs(test));
-        //assertTrue("В списке результатов нет искомого слова", searchPage.searchBlockTextSameAs(search));
     }
 
 }

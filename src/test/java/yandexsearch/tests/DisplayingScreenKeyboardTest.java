@@ -6,6 +6,11 @@ import yandexsearch.pages.MainPage;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Проверка отображения экранной клавиатуры
+ *
+ * @author Oksana Nezlobina <nez_oksana@mail.ru>
+ */
 public class DisplayingScreenKeyboardTest extends BaseTestClass{
 
     @Test
