@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
  * Проверка работы поиска
  *
  * @author Oksana Nezlobina <nez_oksana@mail.ru>
+ *
  */
 public class GoToSearchResultsPageTest extends BaseTestClass {
 
